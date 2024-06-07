@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "auth"
+version = "0.1.0"
+description = "Authentication for Academico"
+authors = ["Agustin Arce <agustinarceprincich@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = {extras = ["all"], version = "0.111.0"}
+sqlalchemy = "^2.0.30"
+jwt = "^1.3.1"
+passlib = "^1.7.4"
+pyjwt = "^2.8.0"
+fronty = "^0.0.7"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
